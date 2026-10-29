@@ -1,0 +1,28 @@
+# Bağımlılıklar ve yerel araçlar
+node_modules/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ortam bilgileri ve kimlik dosyaları
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Gerçek fatura verileri ve yerel çıktılar
+data/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.log
+coverage/
+dist/
+tmp/
+backups/
+.docx-work*/
